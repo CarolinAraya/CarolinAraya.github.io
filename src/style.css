@@ -5,6 +5,10 @@
 color: rgb(255, 156, 7) !important;
 }
 
+.parr-content {
+    margin-top: 40px;
+}
+
 .color {
     height: 50px;
     padding: 40px;
@@ -258,12 +262,12 @@ img {
     color: #09f !important;
 }
 
-#twitter {
+#celeste {
     background-color: #1DA1F2 !important;
     color: #fff !important;
 }
 
-#instagram {
+#rosa {
     background-color: #ff1868 !important;
     color: #fff !important;
 }
