@@ -5,6 +5,17 @@
 color: rgb(255, 156, 7) !important;
 }
 
+.menu-title { 
+    color: rgb(155, 153, 153);
+    padding: 0px 0px 20px 0px;
+    margin-top: -30px; 
+}
+
+.title {
+    color: rgb(155, 153, 153);
+
+}
+
 .parr-content {
     margin-top: 40px;
 }
@@ -12,6 +23,7 @@ color: rgb(255, 156, 7) !important;
 .color {
     height: 50px;
     padding: 40px;
+    max-width: 500px;
 }
 
 .color2 {
@@ -226,8 +238,7 @@ img {
 
 #home {
     max-width: 600px;
-    margin-left: auto;
-    margin-right: auto;
+    
 }
 
 #home a:link,
