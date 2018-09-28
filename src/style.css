@@ -1,5 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Inconsolata);
 
+.ruta-titulo {
+    background-color: #000;
+    color: #31D843;
+}
 
 .name {
 color: rgb(255, 156, 7) !important;
@@ -21,9 +25,9 @@ color: rgb(255, 156, 7) !important;
 }
 
 .color {
-    height: 50px;
-    padding: 40px;
+    padding: 20px;
     max-width: 500px;
+    margin-left: 20px;
 }
 
 .color2 {
@@ -82,7 +86,7 @@ body {
 }
 
 .header-space {
-    margin-top: 50px;
+    padding: 1rem;
 
 }
 
