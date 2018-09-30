@@ -2,8 +2,9 @@
 
 
 developer = [
-    {"vanillaJs": 
-    ["datadashboard", "trans-lab"]
+    {
+        "vanillaJs":
+            ["datadashboard", "trans-lab"]
     },
     {
         "Node": "cmd-alienks"
@@ -11,13 +12,11 @@ developer = [
     {
         "Angular": "social-network"
     }
-];
+]
 
-artist =
-    {
-        "ilustrations": [
-            "digitals", "watercolor"
-        ]
-    };
+artist = {
+    "ilustrations":
+        ["digitals", "watercolor"] 
+    }
 
 
