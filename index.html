@@ -9,6 +9,8 @@
     <!-- link Boostrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
 
     <!-- Styles -->
     <link rel="stylesheet" href="./src/style.css">
@@ -16,6 +18,41 @@
 
 <body>
 
+    <!-- modal -->
+    
+    <!-- Modals -->
+    <div class="modal fade" id="cmd-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">cmd-alienk 👽
+                    </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="img-modal-container">
+                    <img src="assets/cmd-alienks.png">
+                    </div>
+
+                    <p>&#32;Es una biblioteca que utiliza
+                        <b id="nodejs">NodeJS</b> para extraer los links de un archivo markdown (.md) y retornarlos en la consola como un
+                        arreglo objetos con cuatro propiedades; la url, el título, la ruta del archivo y la línea del texto
+                        donde se encuentra. También se pueden validar los enlaces mediante un comando específico.
+
+                    </p>
+                    <p>
+                        <a href="https://www.npmjs.com/package/cmd-alienks">
+                            <h1 id="npm-icon">
+                                <i class="fab fa-npm"></i>
+                            </h1>
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="container">
         <div class="row mb-5"></div>
         <div class="row">
@@ -57,12 +94,12 @@
                                 </div>
                                 <div class="col-10 p-0 text-left">
                                     <h2 class="corchete h5">[</h2>
-                                    <a href="" id="datadashboard">
+                                    <a href="" class="project" id="datadashboard">
                                         <b>datashboard</b>
                                     </a>
                                     <b class="propiedad">,</b>
                                     <a href="">
-                                        <b href="" id="trans-lab">trans-lab</b>
+                                        <b href="" class="project" id="trans-lab">trans-lab</b>
                                     </a>
                                     <b href="" class="corchete h5">]</b>
                                 </div>
@@ -84,7 +121,7 @@
                                     <b class="propiedad p-0" id="vanilla">NodeJs</b>
                                     <b class="propiedad">:</b>
                                     <b>
-                                        <a href="" id="datadashboard">
+                                        <a href="" data-toggle="modal" data-target="#cmd-modal" class="project" id="cmd-alienks">
                                             cmd-alienks
                                         </a>
                                     </b>
@@ -101,7 +138,7 @@
                                     <b class="propiedad p-0" id="vanilla">Angular</b>
                                     <b class="propiedad">:</b>
                                     <b class="propiedad">
-                                        <a href="" id="datadashboard">
+                                        <a href="" class="project" id="social-network">
                                             social-network
                                         </a>
                                     </b>
@@ -139,12 +176,12 @@
                                 <div class="col-10 p-0 ">
                                     <b href="" class="corchete h5">[</b>
 
-                                    <a href="" id="datadashboard">
+                                    <a href="" class="project" id="digital">
                                         <b>digital</b>
                                     </a>
                                     <b class="propiedad">,</b>
                                     <a href="">
-                                        <b href="" id="trans-lab">watercolor</b>
+                                        <b href="" class="project" id="watercolor">watercolor</b>
                                         <b href="" class="corchete h5">]</b>
                                     </a>
                                 </div>
@@ -166,9 +203,9 @@
                     <p>
                         <p>Bienvenido a mi portafolio!</p>
                         <p>Soy desarrolladora Front-end egresada de
-                            <a href="http://www.laboratoria.la/" id="laboratoria">Laboratoria</a> Chile y artista innata. Actualmente estoy de lleno en lo de
-                            la <a href="https://github.com/CarolinAraya" id="programacion">programación</a> aunque en mis tiempos libres disfruto practicando artes marciales, creando
-                            <a href="" id="soundtrap">melodías</a>, y en ocasiones sale uno que otro boceto que posteo en mi
+                            <a href="http://www.laboratoria.la/" id="laboratoria">Laboratoria</a> Chile y artista innata. Actualmente estoy de lleno en lo de la
+                            <a href="https://github.com/CarolinAraya" id="programacion">programación</a> aunque en mis tiempos libres disfruto practicando artes marciales, creando
+                            <a href="https://www.soundtrap.com/carolinaraya?" id="soundtrap">melodías</a>, y en ocasiones sale uno que otro boceto que posteo en mi
                             <a href="https://www.instagram.com/carolina.ilus/" id="instagram">Instagram</a> donde también comparto el proceso de mi trabajo como desarrolladora.</p>
                         <p>Más información acerca de mis trabajos en el Menú y si gustas puedes descargar mi
                             <a href="" id="celeste">currículum</a>.</p>
@@ -178,7 +215,13 @@
                 </div>
             </div>
         </div>
-
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            crossorigin="anonymous"></script>
+        <script src="src/style.js"></script>
 </body>
 
 </html>

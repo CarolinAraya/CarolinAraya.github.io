@@ -57,6 +57,11 @@ img {
    color:rgb(165, 176, 177) !important;
 }
 
+.project {
+    /* #fddb00 */
+     color: rgb(1, 209, 220) !important;
+ }
+
 .titulo {
     color: #31D843;
         margin-left: -39px;
@@ -69,6 +74,7 @@ padding-left:96px;
 font-weight: 100;
 font-size: 40px;
 text-align: center;
+padding-top: 7px;
 }
 
 .menu-title { 
@@ -202,20 +208,32 @@ body {
   }
 }
 
+/* Modals */
 
+.img-modal-container {
+    margin-bottom: 25px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.19), 0 10px 9px 0 rgba(0, 0, 0, 0.19);
+}
+
+#npm-icon {
+    text-align: center;
+    font-size: 80px !important;
+}
+
+#nodejs {
+    background-color: #31D843;
+    color: white;
+}
 /* code values */
 
 #vanilla {
     color:  #d5bf30 !important;
 }
 
-#datadashboard {
-   /* #fddb00 */
-    color: rgb(1, 209, 220) !important;
-}
+
 
 #trans-lab {
-color:  rgb(0, 0, 0);
+color:  rgb(0, 0, 0) !important;
 background-color: rgb(63, 188, 195);;
 }
 
