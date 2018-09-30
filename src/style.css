@@ -1,5 +1,22 @@
 @import url(https://fonts.googleapis.com/css?family=Inconsolata);
 
+/* Modals */
+
+.img-modal-container {
+    margin-bottom: 25px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.19), 0 10px 9px 0 rgba(0, 0, 0, 0.19);
+}
+
+#npm-icon {
+    text-align: center;
+    font-size: 80px !important;
+}
+
+#nodejs {
+    background-color: #31D843;
+    color: white;
+}
+
 a:hover,
 a:visited,
 a:active,
@@ -208,22 +225,7 @@ body {
   }
 }
 
-/* Modals */
 
-.img-modal-container {
-    margin-bottom: 25px;
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.19), 0 10px 9px 0 rgba(0, 0, 0, 0.19);
-}
-
-#npm-icon {
-    text-align: center;
-    font-size: 80px !important;
-}
-
-#nodejs {
-    background-color: #31D843;
-    color: white;
-}
 /* code values */
 
 #vanilla {
