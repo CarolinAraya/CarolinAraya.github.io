@@ -2,10 +2,8 @@
 
 
 developer = [
-    {
-        "vanillaJs": [
-            "datadashboard", "trans-lab"
-        ]
+    {"vanillaJs": 
+    ["datadashboard", "trans-lab"]
     },
     {
         "Node": "cmd-alienks"
@@ -17,7 +15,9 @@ developer = [
 
 artist =
     {
-        "ilustrations": ["digitals", "watercolor"]
+        "ilustrations": [
+            "digitals", "watercolor"
+        ]
     };
 
 

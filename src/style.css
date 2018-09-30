@@ -38,6 +38,10 @@ img {
 padding-bottom: 10px
 }
 
+.row-ident-border {
+    border-left: 1px solid #777;
+}
+
 .mostach {
     color: #ff1868;
     font-weight: 600;
@@ -71,21 +75,21 @@ text-align: center;
 
 .parr-content {
     margin-top: 40px;
-    padding-right: 160px;
     padding-left: 20px;
-   
 }
 
-
+.description {
+    max-width: 500px;;
+}
 
 .menu-container {
     background-color: #152445f7;
     height: 80vh;
-    border-radius: 20px;
+    border-radius: 18px;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.19), 0 10px 9px 0 rgba(0, 0, 0, 0.19);
     padding: 40px;
     max-width: 426px;
-    min-width: 360px; 
+    min-width: 426px; 
 }
 
 .text-shadow {
@@ -252,7 +256,6 @@ background-color: rgb(63, 188, 195);;
 #home a:active,
 #home a:visited {
     color: white;
-    padding: .2em;
 }
 
 #home a:hover {
