@@ -19,7 +19,7 @@
 <body>
 
     <!-- modal -->
-    
+
     <!-- Modals -->
     <div class="modal fade" id="cmd-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
@@ -33,7 +33,7 @@
                 </div>
                 <div class="modal-body">
                     <div class="img-modal-container">
-                    <img src="assets/cmd-alienks.png">
+                        <img src="assets/cmd-alienks.png">
                     </div>
 
                     <p>&#32;Es una biblioteca que utiliza
@@ -53,6 +53,41 @@
             </div>
         </div>
     </div>
+    <!-- Modal Social Network -->
+    <div class="modal fade" id="social-network" tabindex="-1" role="dialog" aria-labelledby="social-network" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title"><img class="logo" src="assets/logo.png" >
+                        </h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="img-modal-container">
+                            <img src="assets/ngredsocial.png">
+                        </div>
+    
+                        <p>&#32;Es uno de los proyectos que trabajamos en dúo en <b id="laboratoria">Laboratoria</b> en
+                            un período de dos semanas aplicando metodologías ágiles. 
+                            Es nuestra primera aplicación desarrollada con el framework <b id="angular">Angular</b> y <b id="firebase">Firebase</b>.
+        
+                
+    
+                        </p>
+                        <p>
+                            <a href="https://www.npmjs.com/package/cmd-alienks">
+                                <h1 id="npm-icon">
+                                        <i class="fab fa-angular"></i>
+                                        <img class="logo-fire" src="assets/google_firebase-512.png">
+                                </h1>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
     <div class="container">
         <div class="row mb-5"></div>
         <div class="row">
@@ -61,7 +96,8 @@
                 <div class="row">
                     <div>
                         <h1 class="titulo ">C:\Menu
-                            <span class="blinking-cursor">_ </span>
+                        <i class="fab fa-github-square"></i>
+                        <span class="blinking-cursor">_ </span>
                         </h1>
                     </div>
                 </div>
@@ -138,7 +174,7 @@
                                     <b class="propiedad p-0" id="vanilla">Angular</b>
                                     <b class="propiedad">:</b>
                                     <b class="propiedad">
-                                        <a href="" class="project" id="social-network">
+                                        <a href="" data-toggle="modal" data-target="#social-network" class="project" id="social-network">
                                             social-network
                                         </a>
                                     </b>

@@ -210,9 +210,19 @@ body {
 
 /* Modals */
 
+.logo {
+    max-height: 30px ;
+    margin: 0 8px
+}
+
 .img-modal-container {
     margin-bottom: 25px;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.19), 0 10px 9px 0 rgba(0, 0, 0, 0.19);
+}
+
+.logo-fire {
+    max-height: 60px ;
+    margin: 0 8px
 }
 
 #npm-icon {
@@ -222,6 +232,16 @@ body {
 
 #nodejs {
     background-color: #31D843;
+    color: white;
+}
+
+#angular {
+    background-color: red;
+    color: white;
+}
+
+#firebase {
+    background-color: #f6820c;
     color: white;
 }
 /* code values */
@@ -409,6 +429,7 @@ background-color: rgb(63, 188, 195);;
 @media (max-width: 579px) {
 	.menu-container {
         box-shadow: 0 0 0 0;
+        background-size: auto;
     }
 }
 
