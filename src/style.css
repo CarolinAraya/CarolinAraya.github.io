@@ -1,22 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Inconsolata);
 
-/* Modals */
-
-.img-modal-container {
-    margin-bottom: 25px;
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.19), 0 10px 9px 0 rgba(0, 0, 0, 0.19);
-}
-
-#npm-icon {
-    text-align: center;
-    font-size: 80px !important;
-}
-
-#nodejs {
-    background-color: #31D843;
-    color: white;
-}
-
 a:hover,
 a:visited,
 a:active,
@@ -225,7 +208,22 @@ body {
   }
 }
 
+/* Modals */
 
+.img-modal-container {
+    margin-bottom: 25px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.19), 0 10px 9px 0 rgba(0, 0, 0, 0.19);
+}
+
+#npm-icon {
+    text-align: center;
+    font-size: 80px !important;
+}
+
+#nodejs {
+    background-color: #31D843;
+    color: white;
+}
 /* code values */
 
 #vanilla {
@@ -385,10 +383,6 @@ background-color: rgb(63, 188, 195);;
 
 }
 
-.workitem meta {
-
-}
-
 #workitemimg {
     height: auto;
     width: auto;
@@ -397,5 +391,24 @@ background-color: rgb(63, 188, 195);;
     max-width: 600px;
     max-width: 100%;
     border-radius: 3px;
+}
+
+@media (max-width: 995px) {
+	.description {
+        display: none;
+    }
+}
+
+@media (max-width: 579px) {
+	body {
+        background-color: #152445;
+    }
+}
+
+
+@media (max-width: 579px) {
+	.menu-container {
+        box-shadow: 0 0 0 0;
+    }
 }
 
