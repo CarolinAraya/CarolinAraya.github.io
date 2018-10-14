@@ -208,6 +208,10 @@ html {
 
 /* Modals */
 
+.welcome {
+    color: #429fa8;
+}
+
 .logo {
     max-height: 30px ;
     margin: 0 8px
