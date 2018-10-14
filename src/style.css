@@ -211,6 +211,11 @@ html {
 
 /* Modals */
 
+.fa-angular {
+    color: red;
+    font-size: 73px;
+}
+
 .welcome {
     color: #429fa8;
 }
