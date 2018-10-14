@@ -40,6 +40,9 @@ img {
     max-height: 100%;
 }
 
+.coment {
+    color: #8d8d8d;
+}
 
 .row-ident-border {
     border-left: 1px solid #777;
@@ -71,7 +74,7 @@ img {
 
 .titulo {
     color: #31D843;
-    margin-bottom: 39px;
+    margin-bottom: 29px;
     padding-top: 12px;
     margin-left: -12px;
 }
@@ -105,7 +108,7 @@ img {
     border-radius: 18px;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.19), 0 10px 9px 0 rgba(0, 0, 0, 0.19);
     padding: 2% 5%;
-    min-height: 520px;
+    min-height: 537px;
     /*min-width: 460px; 
     min-height: 568px;
     max-height: 521px;
