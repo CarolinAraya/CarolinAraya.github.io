@@ -124,6 +124,46 @@
             </div>
         </div>
     </div>
+    <!-- Modal watercolor -->
+    <div class="modal fade" id="watercolor" tabindex="-1" role="dialog" aria-labelledby="watercolor" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">
+                        Kinokos
+                    </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="img-modal-container">
+                            <img src="assets/kinokos.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal digital -->
+    <div class="modal fade" id="digital" tabindex="-1" role="dialog" aria-labelledby="digital" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">
+                        Yoshimoto Banana
+                    </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="img-modal-container">
+                            <img src="assets/banana.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="container">
         <div class="row">
             <div class="col-12 col-lg-5 menu-container shadow" id="home">
@@ -246,12 +286,14 @@
                             <div class="col-10 p-0 ">
                                 <b href="" class="corchete h5">[</b>
 
-                                <a href="" class="project" id="digital">
+                                <a href="" class="project" id="digital" data-toggle="modal" data-target="#digital">
                                     <b>digital</b>
                                 </a>
                                 <b class="propiedad">,</b>
                                 <a href="">
-                                    <b href="" class="project" id="watercolor">watercolor</b>
+                                    <a data-toggle="modal" data-target="#watercolor">
+                                        <b href="" class="project" id="watercolor">watercolor</b>
+                                    </a>
                                     <b href="" class="corchete h5">]</b>
                                 </a>
                             </div>
