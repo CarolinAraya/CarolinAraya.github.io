@@ -122,11 +122,7 @@ img {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.19), 0 10px 9px 0 rgba(0, 0, 0, 0.19);
     padding: 2% 5%;
     min-height: 573px;
-    /*min-width: 460px; 
-    min-height: 568px;
-    max-height: 521px;
-    max-width: 426px;*/
-
+    min-width: 456px;
 }
 
 .text-shadow {
@@ -469,6 +465,15 @@ background-color: rgb(63, 188, 195);;
 @media (max-width: 400px) {
 	.row-ident-border {
         border-left: 0;
+    }
+    .menu-container {
+        min-width: 0;
+    }
+}
+@media (max-width: 420px) {
+	
+    .menu-container {
+        min-width: 0;
     }
 }
 
