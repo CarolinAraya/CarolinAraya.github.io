@@ -57,6 +57,12 @@ img {
     color: #7fffd4a8;
 }
 
+.links-modal-instruction {
+    font-size: 11px;
+    text-align: right;
+    color: olivedrab;
+}
+
 .row-ident-border {
     border-left: 1px solid #777;
 } 
@@ -439,8 +445,12 @@ background-color: rgb(63, 188, 195);;
     .description-mobile{
         display: block;
     }
-    #laboratoria, #instagram{
-        color: #152445 !important;
+    #laboratoria {
+        color: #e04c4c !important;
+    }
+    #programacion {
+        background-color: #019b99 !important;
+        color: #fddb00 !important;
     }
     .menu-container{
         min-height: 630px;
@@ -474,6 +484,7 @@ background-color: rgb(63, 188, 195);;
 	
     .menu-container {
         min-width: 0;
+        min-height: 860px;
     }
 }
 
