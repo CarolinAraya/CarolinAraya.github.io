@@ -40,6 +40,23 @@ img {
     max-height: 100%;
 }
 
+.fa-github:before {
+    content: "\f09b";
+    font-size: 36px;
+    color: purple;
+    margin-right: 14px;
+}
+
+.icons-section {
+    text-align: center;
+    font-size: 52px;
+    margin-top: 42px;
+}
+
+.angular-icon-section {
+    font-size: 63px !important;
+}
+
 .description-mobile{
     display: none;
     color: #ff6d6d;
@@ -88,7 +105,8 @@ img {
 
 .project {
     /* #fddb00 */
-     color: rgb(1, 209, 220) !important;
+    color: rgb(14, 42, 68) !important;
+    background-color: rgb(63, 188, 195);
  }
 
 .titulo {
